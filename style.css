@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+  /* overflow: unset; */
+}
+
+body {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0) 0px -2px 4px;
+  height: 68px;
+  max-width: 1920px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.logo_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  cursor: pointer;
+}
+
+.logo {
+  height: 38px;
+  width: 55px;
+}
+
+.Company_logo {
+  height: 20px;
+  width: 60px;
+}
+
+.search_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+}
+
+.search_box_input {
+  /* outline: none; */
+  font-size: 15px;
+  padding: 10px 30px;
+  border-radius: 5px 0px 0px 5px;
+  background-color: rgb(244, 246, 249);
+  border-color: rgb(235, 235, 235);
+  border-width: 0.5px;
+  /* border: 0.1; */
+  height: 40px;
+  transition-duration: 0s;
+  color: rgb(85, 85, 98);
+  font-size: 15px;
+  line-height: 40px;
+  outline: none;
+}
+
+.search_box_icon {
+  align-items: center;
+  padding: 9px 13px;
+  border-radius: 0px 5px 5px 0px;
+  top: 1.7%;
+  right: 52.5%;
+  background: rgb(215, 60, 70);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.seller_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 30px;
+  margin-right: 2%;
+}
+
+.seller_section a {
+  margin: 0px 30px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.seller_section p {
+  font-family: Roboto;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(39, 39, 47);
+}
+
+.seller_section img {
+  height: 25px;
+  width: 25px;
+}
+
+.seller_section a :hover {
+  color: rgb(215, 60, 70);
+  transition: all 0.3s;
+}
+
+/* ---------------Body-------------------- */
+.work_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.work_section p {
+  margin-right: 5%;
+  margin-bottom: 5%;
+  max-width: 800px;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: -0.36px;
+  font-size: 40px;
+  font-family: Roboto;
+  /* color: rgb(215, 60, 70); */
+}
+
+.work_section img {
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.Images_Container {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  padding: 10px 10px;
+  /* background-color: antiquewhite; */
+  margin: 30px;
+}
+
+.Image_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+}
+
+.Images_Container img {
+  border: none;
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.content {
+  width: 300px;
+  margin: 20px 20px;
+  /* padding: 10px 10px; */
+}
+
+.Heading {
+  font-weight: 700;
+  color: rgb(85, 85, 98);
+  font-size: 16px;
+  min-height: 24px;
+}
+
+.description {
+  color: rgb(129, 129, 129);
+  font-weight: 400;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  min-height: 24px;
+}
